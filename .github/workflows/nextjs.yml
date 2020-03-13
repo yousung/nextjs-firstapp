@@ -3,13 +3,15 @@ name: Deploy to Now
 on: [push]
 
 jobs:
-  deploy:
+  build:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: amondnet/now-deployment@v2
-        with:
-          zeit-token: ${{ secrets.ZEIT_TOKEN }} # Required
-          now-args: '--prod' #Optional
-#          now-org-id: 'yousung/nextjs-firstapp' #Required
-          now-project-id: 'first-next-app' #Required
+      - name: Checkout master
+        uses: actions/checkout@v1
+
+      - name: Deploy the site
+        uses: spankie/hugo-deploy-to-zeit@master
+        env:
+          HUGO_VERSION: 0.59.1
+          ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
