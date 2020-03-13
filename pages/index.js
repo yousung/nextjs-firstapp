@@ -8,7 +8,7 @@ const Home = () => (
     </Head>
 
     <main>
-      <div>내용을 적는곳 언젠가 되겠지 ?</div>
+      <div>내용을 적는곳 언젠가 되겠지 되는거 맞나??</div>
     </main>
 
     <footer>푸터</footer>
