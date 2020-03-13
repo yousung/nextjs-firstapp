@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Menu from "../components/menu"
 
 const Home = () => (
   <div className="container">
@@ -6,6 +7,8 @@ const Home = () => (
       <title>NextJs First App 자동 배포</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
+
+    <Menu />
 
     <main>
         <div>내용을 적는 곳입니다.</div>
