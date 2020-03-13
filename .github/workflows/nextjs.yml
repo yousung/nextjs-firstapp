@@ -16,7 +16,7 @@ jobs:
         run: yarn build
 
       - name: Deploy
-        run: yarn run now -t ${{ secrets.ZEIT_TOKEN }}
+        run: yarn run now --token=${{ secrets.ZEIT_TOKEN }}
 
         # The `_build/` argument is optional. In my case it's the directory where `yarn build` puts the final code to
         # deploy. If you want to deploy the current directory instead, just remove this argument.
