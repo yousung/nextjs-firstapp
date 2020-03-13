@@ -2,7 +2,7 @@
 name: Deploy to Now
 on: [push]
 
-jjobs:
+jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
