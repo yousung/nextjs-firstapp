@@ -3,15 +3,15 @@ import Head from "next/head";
 const Home = () => (
   <div className="container">
     <Head>
-      <title>Next JS First App</title>
+      <title>Next JS First App Test</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <main>
-      <div>First App</div>
+      <div>내용을 적는 곳</div>
     </main>
 
-    <footer>푸터 change</footer>
+    <footer>푸터</footer>
   </div>
 );
 
