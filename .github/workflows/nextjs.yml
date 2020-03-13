@@ -11,5 +11,5 @@ jobs:
         with:
           zeit-token: ${{ secrets.ZEIT_TOKEN }} # Required
           now-args: '--prod' #Optional
-          now-org-id: 'yousung' #Required
+          now-org-id: 'yousung/nextjs-firstapp' #Required
           now-project-id: 'first-next-app' #Required
