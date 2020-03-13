@@ -11,7 +11,7 @@ const Home = () => (
       <div>First App</div>
     </main>
 
-    <footer>푸터</footer>
+    <footer>푸터 change</footer>
   </div>
 );
 
