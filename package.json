@@ -6,10 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "now" : "now --prod"
+    "now": "now --prod"
   },
   "dependencies": {
     "next": "9.3.0",
+    "now": "^17.0.4",
     "react": "16.13.0",
     "react-dom": "16.13.0"
   }
