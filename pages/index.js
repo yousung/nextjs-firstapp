@@ -8,7 +8,7 @@ const Home = () => (
     </Head>
 
     <main>
-      <div>내용을 적는곳 자동 배포가 되는지 확인합니다.</div>
+      <div>내용을 적는곳 언젠가 되겠지 ?</div>
     </main>
 
     <footer>푸터</footer>
