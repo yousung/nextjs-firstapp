@@ -12,7 +12,8 @@ const Home = () => (
 
     <main>
         <div>내용을 적는 곳입니다.</div>
-      <div>내용을 적는 곳입니다.</div>
+        <div>내용을 적는 곳일까?</div>
+        <div>내용을 적는 곳.</div>
     </main>
 
     <footer>푸터입니다 제대로된건지 확인하고 있습니다.</footer>
