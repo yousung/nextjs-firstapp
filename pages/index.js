@@ -6,6 +6,7 @@ const Home = () => (
     <Head>
       <title>NextJs First App 자동 배포</title>
       <link rel="icon" href="/favicon.ico" />
+      <meta name="description" content="네이버 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요" />
     </Head>
 
     <Menu />
